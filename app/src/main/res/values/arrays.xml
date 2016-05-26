@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="juso">
+        <item>서울특별시</item>
+        <item>부산광역시</item>
+        <item>대구광역시</item>
+        <item>인천광역시</item>
+        <item>광주광역시</item>
+        <item>대전광역시</item>
+        <item>울산광역시</item>
+        <item>경기도</item>
+        <item>강원도</item>
+        <item>충청북도</item>
+        <item>충청남도</item>
+        <item>전라북도</item>
+        <item>전라남도</item>
+        <item>경상북도</item>
+        <item>경상남도</item>
+        <item>제주특별자치도</item>
+    </string-array>
+    <string-array name="juso_code">
+        <item>11</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>50</item>
+
+    </string-array>
+    <string-array name="jugi_bm">
+        <item>매주 1회</item>
+        <item>매주 2회</item>
+        <item>매주 3회</item>
+        <item>매주 4회</item>
+        <item>매주 5회</item>
+        <item>매주 6회</item>
+        <item>매주 7회</item>
+    </string-array>
+
+    <string-array name="jugi_sd">
+        <item>연 9회</item>
+        <item>연 10회</item>
+        <item>연 11회</item>
+        <item>연 12회</item>
+    </string-array>
+
+    <string-array name="time_bm">
+        <item>00:00</item><item>00:30</item>
+        <item>01:00</item><item>01:30</item>
+        <item>02:00</item><item>02:30</item>
+        <item>03:00</item><item>03:30</item>
+        <item>04:00</item><item>04:30</item>
+        <item>05:00</item><item>05:30</item>
+        <item>06:00</item><item>06:30</item>
+        <item>07:00</item><item>07:30</item>
+        <item>08:00</item><item>08:30</item>
+        <item>09:00</item><item>09:30</item>
+        <item>10:00</item><item>10:30</item>
+        <item>11:00</item><item>11:30</item>
+        <item>12:00</item><item>12:30</item>
+        <item>13:00</item><item>13:30</item>
+        <item>14:00</item><item>14:30</item>
+        <item>15:00</item><item>15:30</item>
+        <item>16:00</item>
+    </string-array>
+
+    <string-array name="time_sd">
+        <item>00:00</item><item>00:30</item>
+        <item>01:00</item><item>01:30</item>
+        <item>02:00</item><item>02:30</item>
+        <item>03:00</item><item>03:30</item>
+        <item>04:00</item><item>04:30</item>
+        <item>05:00</item><item>05:30</item>
+        <item>06:00</item><item>06:30</item>
+        <item>07:00</item><item>07:30</item>
+        <item>08:00</item><item>08:30</item>
+        <item>09:00</item><item>09:30</item>
+        <item>10:00</item><item>10:30</item>
+        <item>11:00</item><item>11:30</item>
+        <item>12:00</item><item>12:30</item>
+        <item>13:00</item><item>13:30</item>
+        <item>14:00</item><item>14:30</item>
+        <item>15:00</item><item>15:30</item>
+        <item>16:00</item><item>16:30</item>
+        <item>17:00</item><item>17:30</item>
+        <item>18:00</item>
+    </string-array>
+</resources>

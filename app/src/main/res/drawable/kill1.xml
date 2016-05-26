@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Pressed Button -->
+    <item android:state_pressed="true" android:drawable="@drawable/kill1_on" />
+    <item android:state_selected="true" android:drawable="@drawable/kill1_on" />
+
+    <item android:state_selected="false" android:drawable="@drawable/kill1_off" />
+    <!-- default -->
+    <item android:drawable="@drawable/kill1_off" />
+</selector>

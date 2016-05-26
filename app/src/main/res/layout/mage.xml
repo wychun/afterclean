@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/clean1_on"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:src="@drawable/clean1_on"
+        android:onClick="selectOption1"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/sub03_bm_optiongroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/clean2_on"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:src="@drawable/clean2_on"
+        android:onClick="selectOption1"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/sub03_bm_optiongroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/clean3_on"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:src="@drawable/clean3_on"
+        android:onClick="selectOption1"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/sub03_bm_optiongroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />   <ImageView
+    android:id="@+id/kill1_on"
+    android:layout_width="80dp"
+    android:layout_height="85dp"
+    android:src="@drawable/kill1_on"
+    android:onClick="selectOption1"
+    android:layout_marginLeft="30dp"
+    android:background="#FFFFFF"
+    android:layout_alignTop="@+id/sub03_bm_optiongroup"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/kill2_on"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:src="@drawable/kill2_on"
+        android:onClick="selectOption1"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/sub03_bm_optiongroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/kill3_on"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:src="@drawable/kill3_on"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/sub03_bm_optiongroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <ImageView
+        android:id="@+id/kill4_on"
+        android:layout_width="80dp"
+        android:layout_height="85dp"
+        android:src="@drawable/kill4_on"
+        android:onClick="selectOption1"
+        android:layout_marginLeft="30dp"
+        android:background="#FFFFFF"
+        android:layout_alignTop="@+id/sub03_bm_optiongroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</LinearLayout>

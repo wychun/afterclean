@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="spinner">#f0fafc</color>
+    <color name="spinner_focus">#c1e3ea</color>
+    <color name="textview">#cccccc</color>
+    <color name="textview_focus">#aaaaaa</color>
+    <color name="mainColor">#02abd9</color>
+    <color name="noticeColor">#fd5251</color>
+    <color name="backgroundColor">#FFFFFF</color>
+</resources>

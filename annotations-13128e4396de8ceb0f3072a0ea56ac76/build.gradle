@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('annotations-13128e4396de8ceb0f3072a0ea56ac76.jar'))

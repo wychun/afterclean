@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <RelativeLayout android:weightSum="1"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:background="#02abd9"
+    android:layout_height="@dimen/nav_header_height"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView android:layout_height="100dp"
+        android:layout_width="100dp"
+        android:layout_weight="0.62"
+        android:src="@android:drawable/sym_def_app_icon"
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:layout_marginRight="20dp"
+        android:id="@+id/profile_img"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/profile_name"
+        android:layout_toStartOf="@+id/profile_name" />
+
+    <TextView android:layout_height="wrap_content"
+               android:layout_width="wrap_content"
+               android:paddingTop="@dimen/nav_header_vertical_spacing"
+               android:layout_marginTop="10dp"
+               android:id="@+id/profile_name"
+               android:textSize="25sp"
+               android:layout_gravity="center_horizontal"
+               android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+               android:text="  애프터클린"
+        android:layout_alignTop="@+id/profile_img"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="109dp"
+        android:layout_marginEnd="109dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="포인트"
+        android:textSize="16dp"
+        android:layout_marginTop="10sp"
+        android:id="@+id/textView"
+        android:layout_toRightOf="@+id/profile_img"
+        android:layout_alignRight="@+id/profile_name"
+        android:layout_alignEnd="@+id/profile_name"
+        android:layout_alignBottom="@+id/profile_img"
+        android:layout_below="@+id/profile_name" />
+</RelativeLayout>

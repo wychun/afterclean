@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.nuriapp.afterclean.Sub02Activity_sd">
+
+    <RelativeLayout
+        android:id="@+id/sub02_sd_layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#f0fafc">
+
+        <TextView
+            android:id="@+id/sub02_sd_price01"
+            android:layout_marginLeft="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="소독가격"/>
+
+        <TextView
+            android:id="@+id/sub02_sd_price02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/sub02_sd_size01"
+            android:layout_marginLeft="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_price01"
+            android:text="소독면적" />
+
+        <TextView
+            android:id="@+id/sub02_sd_size02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_price02"
+            android:layout_alignParentRight="true"
+            android:text="" />
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/price"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2" />
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="15dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/space"
+            android:layout_alignBottom="@+id/sub02_bm_time01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/sub02_sd_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub02_sd_layout01"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="#f0fafc">
+        <TextView
+            android:id="@+id/sub02_sd_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text=""/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub02_sd_layout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub02_sd_layout02"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin">
+
+        <TextView
+            android:id="@+id/sub02_sd_text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="소독의 주기를 선택해주세요."/>
+        <TextView
+            android:id="@+id/sub02_sd_text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_text01"
+            android:layout_marginTop="10dp"
+            android:text="가정집"
+            android:textColor="@color/mainColor"/>
+
+        <RelativeLayout
+            android:id="@+id/sub02_sd_jugigroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_text02"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#cccccc">
+            <TextView
+                android:id="@+id/sub02_sd_jugi01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3개월 1회">
+            </TextView>
+            <TextView
+                android:id="@+id/sub02_sd_jugi01_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="19900원" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sub02_sd_jugigroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_jugigroup1"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#cccccc">
+
+            <TextView
+                android:id="@+id/sub02_sd_jugi02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1회만" />
+
+            <TextView
+                android:id="@+id/sub02_sd_jugi02_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="가격미정" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/sub02_sd_text03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_jugigroup2"
+            android:layout_marginTop="15dp"
+            android:text="사업장"
+            android:textColor="@color/mainColor"/>
+
+        <RelativeLayout
+            android:id="@+id/sub02_sd_jugigroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_text03"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#f0fafc">
+            <Spinner
+                android:id="@+id/sub02_sd_jugi03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:prompt="@string/jugi_sd_prompt">
+            </Spinner>
+            <TextView
+                android:id="@+id/sub02_sd_jugi03_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="가격미정" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sub02_sd_jugigroup4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_jugigroup3"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#cccccc">
+
+            <TextView
+                android:id="@+id/sub02_sd_jugi04"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="연 5회" />
+
+            <TextView
+                android:id="@+id/sub02_sd_jugi04_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="가격미정" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/sub02_sd_jugigroup5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_sd_jugigroup4"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="#cccccc">
+            <TextView
+                android:id="@+id/sub02_sd_jugi05"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1회만" />
+
+            <TextView
+                android:id="@+id/sub02_sd_jugi05_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="가격미정" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/button_sd_sub03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:onClick="next_sub03"
+        android:background="@color/mainColor"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

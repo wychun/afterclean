@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--  Pressed Button -->
+    <item android:state_pressed="true" android:drawable="@drawable/clean2_on" android:color="@color/backgroundColor"/>
+    <item android:state_selected="true" android:drawable="@drawable/clean2_on"   android:color="@color/backgroundColor"/>
+
+    <item android:state_selected="false" android:drawable="@drawable/clean2_off"   android:color="@color/backgroundColor"/>
+    <!-- default -->
+    <item android:drawable="@drawable/clean2_off"  android:color="@color/backgroundColor"/>
+</selector>

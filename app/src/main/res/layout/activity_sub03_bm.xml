@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nuriapp.afterclean.Sub03Activity_bm">
+
+    <RelativeLayout
+        android:id="@+id/sub03_bm_layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#f0fafc">
+        <TextView
+            android:id="@+id/sub03_bm_text01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="방문청소 가격"/>
+        <TextView
+            android:id="@+id/sub03_bm_text02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub03_bm_text01"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="18dp"
+            android:text="방문청소 예상시간"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/price"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2" />
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/time"
+            android:layout_alignBottom="@+id/sub02_bm_time01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+        <LinearLayout
+            android:id="@+id/sub03_bm_text03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true">
+
+            <TextView
+                android:id="@+id/sub03_bm_text03_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="  /  "/>
+
+            <TextView
+                android:id="@+id/sub03_bm_text03_jugi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/sub03_bm_text03_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sub03_bm_text03"
+            android:layout_marginTop="10dp"
+            android:text=""/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub03_bm_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginTop="8dp"
+        android:background="#f0fafc"
+        android:layout_below="@+id/sub03_bm_layout01"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="청소예상시간을 선택해주세요"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="(고객님께 만족을 줄 수 있는 시간 2~8시간)"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/sub03_bm_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub03_bm_layout02"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:text="*10평 기준 2시간 입니다. 10평 이상이라면 10평 추가시 1시간씩 추가해 주세요."
+        android:textColor="@color/noticeColor"/>
+
+    <RelativeLayout
+        android:id="@+id/sub03_bm_layout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub03_bm_text"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:background="#f0fafc">
+
+        <NumberPicker
+            android:id="@+id/sub03_bm_plustime"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub03_bm_layout04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub03_bm_layout03"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="추가 선택 옵션"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="시간을 추가해 주세요"
+            android:textColor="@color/noticeColor"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="11,000원"
+            android:textColor="@color/mainColor"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub03_bm_layout05"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/sub03_bm_layout04"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="60dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#f0fafc">
+
+        <LinearLayout
+            android:id="@+id/sub03_bm_optiongroup"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:weightSum="1"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <ImageButton
+                android:id="@+id/sub03_bm_option01"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:src="@drawable/clean1"
+                android:onClick="selectOption1"
+                android:layout_marginLeft="30dp"
+                android:background="#f0fafc"
+                android:layout_alignTop="@+id/sub03_bm_optiongroup"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <ImageButton
+                android:id="@+id/sub03_bm_option02"
+                android:layout_width="80dp"
+                android:src="@drawable/clean2"
+                android:background="#f0fafc"
+                android:layout_height="85dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:onClick="selectOption2"
+                android:layout_weight="0.47" />
+
+            <ImageButton
+                android:id="@+id/sub03_bm_option03"
+                android:layout_width="80dp"
+                android:src="@drawable/clean3"
+                android:layout_height="85dp"
+                android:background="#f0fafc"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="30dp"
+                android:onClick="selectOption3"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="5dp"
+            android:text="\n\n\n\n*시간 측정이 어려우시다면 청소전 도우미에게 물어보세요! 추가되더라도 비용은 11,000원 (1시간 추가당)"
+            android:id="@+id/textView2"
+            android:layout_alignParentBottom="true" />
+
+
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_bm_sub04"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:onClick="next_sub04"
+        android:background="@color/mainColor"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

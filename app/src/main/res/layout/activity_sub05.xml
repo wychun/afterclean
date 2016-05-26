@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.nuriapp.afterclean.Sub05Activity">
+
+    <RelativeLayout
+        android:id="@+id/sub05_layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#f0fafc">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="고객님의 나머지 정확한 주소를 입력해주세요"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub05_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub05_layout01"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/sub05_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="서울특별시 영등포구"/>
+
+        <EditText
+            android:id="@+id/sub05_addr_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub05_addr"
+            android:height="50dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/border2"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub05_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub05_layout01"
+        android:layout_marginTop="110dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/sub05_nm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="이름"/>
+
+        <EditText
+            android:id="@+id/sub05_nm_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub05_nm"
+            android:height="50dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:background="@drawable/border2"
+            />
+
+        <TextView
+            android:id="@+id/sub05_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:text="이메일"/>
+
+        <EditText
+            android:id="@+id/sub05_email_detail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub05_nm"
+            android:height="50dp"
+            android:layout_marginTop="120dp"
+            android:gravity="center"
+            android:background="@drawable/border2"
+            />
+
+        <TextView
+            android:id="@+id/sub05_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:text="휴대폰 번호"/>
+
+        <!-- <Spinner
+             android:id="@+id/spinner_phone"
+             android:layout_width="100dp"
+             android:layout_height="37dp"
+             android:layout_marginLeft="5sp"
+             android:layout_marginTop="228dp"
+             android:prompt="@string/phone1"
+             android:background="@drawable/border2" />-->
+
+        <EditText
+            android:id="@+id/sub05_phone_detail1"
+            android:layout_width="90dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sub05_phone"
+            android:height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/border2"
+            />
+
+        <TextView
+            android:id="@+id/sub05_phone1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="105dp"
+            android:text="-"/>
+
+        <EditText
+            android:id="@+id/sub05_phone_detail2"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sub05_phone"
+            android:height="50dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/border2"
+            />
+
+        <TextView
+            android:id="@+id/sub05_phone2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="228dp"
+            android:text="-"/>
+
+        <EditText
+            android:id="@+id/sub05_phone_detail3"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_below="@+id/sub05_phone"
+            android:height="50dp"
+            android:layout_marginLeft="240dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:background="@drawable/border2"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/button_sub06"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:onClick="next_sub06"
+        android:background="@color/mainColor"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

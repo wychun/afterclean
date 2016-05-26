@@ -1,0 +1,2 @@
+configurations.create("default")
+artifacts.add("default", file('kcp_smart_phone_util-f53aa47e6d8be7a7bec934a2c1e1d4af.jar'))

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.nuriapp.afterclean.Sub02Activity_bm">
+
+    <RelativeLayout
+        android:id="@+id/sub02_bm_layout01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#f0fafc">
+
+        <TextView
+            android:id="@+id/sub02_bm_price01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:text="청소가격"/>
+
+        <TextView
+            android:id="@+id/sub02_bm_price02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text=""/>
+
+        <TextView
+            android:id="@+id/sub02_bm_time01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_below="@+id/sub02_bm_price01"
+            android:text="청소예상시간" />
+
+        <TextView
+            android:id="@+id/sub02_bm_time02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/sub02_bm_price02"
+            android:text="123" />
+
+        <ImageView
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:id="@+id/imageView1"
+            android:src="@drawable/price"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/imageView2"
+            android:layout_alignEnd="@+id/imageView2" />
+        <ImageView
+            android:layout_width="13dp"
+            android:layout_height="10dp"
+            android:layout_marginTop="18dp"
+            android:id="@+id/imageView2"
+            android:src="@drawable/time"
+            android:layout_alignBottom="@+id/sub02_bm_time01"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/sub02_bm_layout02"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub02_bm_layout01"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:background="#f0fafc">
+        <TextView
+            android:id="@+id/sub02_bm_addr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/sub02_bm_layout03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub02_bm_layout02"
+        android:layout_marginTop="30dp"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <TextView
+            android:id="@+id/sub02_bm_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="청소의 주기를 선택해주세요."/>
+
+        <RelativeLayout
+            android:id="@+id/sub02_bm_jugigroup1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_bm_text"
+            android:layout_marginTop="30dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/selector_spinner">
+
+            <Spinner
+                android:id="@+id/sub02_bm_jugi01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:prompt="@string/jugi_bm_prompt">
+            </Spinner>
+            <TextView
+                android:id="@+id/sub02_bm_jugi01_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="가격미정" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/sub02_bm_jugigroup2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_bm_jugigroup1"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/selector_textview">
+
+            <TextView
+                android:id="@+id/sub02_bm_jugi02"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2주 1회" />
+
+            <TextView
+                android:id="@+id/sub02_bm_jugi02_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="가격미정" />
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/sub02_bm_jugigroup3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/sub02_bm_jugigroup2"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            android:background="@drawable/selector_textview">
+            <TextView
+                android:id="@+id/sub02_bm_jugi03"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1회만" />
+
+            <TextView
+                android:id="@+id/sub02_bm_jugi03_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="25000원" />
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <Button
+        android:id="@+id/button_bm_sub03"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="다음"
+        android:onClick="next_sub03"
+        android:background="@color/mainColor"
+        android:textColor="#ffffff"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true" />
+
+
+
+</RelativeLayout>

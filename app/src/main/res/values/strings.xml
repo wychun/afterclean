@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AfterClean</string>
+    <string name="jugi_bm_prompt">방문주기목록</string>
+    <string name="jugi_sd_prompt">소독주기목록</string>
+    <string name="time_bm_prompt">방문시간목록</string>
+    <string name="time_sd_prompt">소독시간목록</string>
+    <string name="title_activity_profile">AfterClean</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="label_activity_result">결과</string>
+    <string name="label_btn_misp_pay_demo">모바일 결제데모</string>
+    <string name="label_btn_misp_pay_demo_scriptX">모바일 Srcipt X 결제데모</string>
+    <string name="label_btn_acnt_pay_demo">계좌이체 결제데모</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

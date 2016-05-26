@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AfterClean.iml" filepath="$PROJECT_DIR$/AfterClean.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotations-13128e4396de8ceb0f3072a0ea56ac76/annotations-13128e4396de8ceb0f3072a0ea56ac76.iml" filepath="$PROJECT_DIR$/annotations-13128e4396de8ceb0f3072a0ea56ac76/annotations-13128e4396de8ceb0f3072a0ea56ac76.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpclient-4.5.2/httpclient-4.5.2.iml" filepath="$PROJECT_DIR$/httpclient-4.5.2/httpclient-4.5.2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/httpcore-4.4.4/httpcore-4.4.4.iml" filepath="$PROJECT_DIR$/httpcore-4.4.4/httpcore-4.4.4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kcp_smart_phone_util-f53aa47e6d8be7a7bec934a2c1e1d4af/kcp_smart_phone_util-f53aa47e6d8be7a7bec934a2c1e1d4af.iml" filepath="$PROJECT_DIR$/kcp_smart_phone_util-f53aa47e6d8be7a7bec934a2c1e1d4af/kcp_smart_phone_util-f53aa47e6d8be7a7bec934a2c1e1d4af.iml" />
+    </modules>
+  </component>
+</project>
